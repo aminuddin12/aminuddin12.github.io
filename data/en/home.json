@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "Home page data retrieved successfully",
+  "data": {
+    "seo": {
+      "title": "Home - Aminuddin Dev | Modern Web Solutions",
+      "description": "Welcome to Aminuddin Dev. I build scalable, high-performance web applications using React, Next.js, and Cloud Infrastructure. Check out my latest work.",
+      "keywords": "web development, react developer, frontend engineer, portfolio, aminuddin",
+      "ogImage": "/img/og-home.png",
+      "type": "website"
+    },
+    "hero": {
+      "title": "Building Digital Excellence",
+      "subtitle": "I help businesses and startups create scalable, high-performance web applications using cutting-edge technologies like React, Next.js, and Cloud Infrastructure.",
+      "ctaText": "View My Work",
+      "ctaSecondary": "Download CV"
+    },
+    "features": {
+      "title": "Why Work With Me?",
+      "subtitle": "I bring a blend of technical expertise and creative problem-solving to every project.",
+      "items": [
+        { "id": "feat-1", "title": "High Performance", "desc": "Applications optimized for speed and efficiency.", "icon": "solar:bolt-circle-bold-duotone" },
+        { "id": "feat-2", "title": "Clean Architecture", "desc": "Maintainable and scalable codebases.", "icon": "solar:code-square-bold-duotone" },
+        { "id": "feat-3", "title": "Responsive Design", "desc": "Pixel-perfect interfaces for all devices.", "icon": "solar:devices-bold-duotone" }
+      ]
+    },
+    "portfolioPreview": {
+      "title": "Featured Projects",
+      "subtitle": "A glimpse into my recent work solving real-world problems.",
+      "btnDetail": "View Case Study"
+    },
+    "cta": {
+      "title": "Have a Project in Mind?",
+      "subtitle": "Let's collaborate to turn your vision into a high-impact digital reality.",
+      "btn": "Start a Conversation"
+    }
+  }
+}

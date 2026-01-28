@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "About page data retrieved",
+  "data": {
+    "seo": {
+      "title": "About Me - Aminuddin Dev",
+      "description": "Learn more about Aminuddin, a Senior Frontend Engineer with a passion for clean code and user-centric design.",
+      "keywords": "about aminuddin, software engineer bio, skills, experience",
+      "type": "profile"
+    },
+    "title": "Behind the Code",
+    "subtitle": "A closer look at who I am, what I do, and the journey so far.",
+    "bio": {
+      "title": "My Story",
+      "content": [
+        "Hello! I'm Aminuddin, a software engineer based in Indonesia. My journey in tech started with a curiosity about how things work on the internet.",
+        "Over the years, I've honed my skills in full-stack development, focusing on creating intuitive and dynamic user experiences."
+      ]
+    },
+    "skills": {
+      "title": "Tech Stack",
+      "items": ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Node.js", "PostgreSQL", "Docker", "AWS", "Figma"]
+    },
+    "experience": {
+      "title": "Professional Journey",
+      "items": [
+        {
+          "id": "exp-1",
+          "role": "Senior Frontend Engineer",
+          "company": "Tech Corp International",
+          "period": "Jan 2022 - Present",
+          "desc": "Leading frontend architecture migration and mentoring junior developers."
+        },
+        {
+          "id": "exp-2",
+          "role": "Full Stack Developer",
+          "company": "Creative Digital Agency",
+          "period": "Jun 2020 - Dec 2021",
+          "desc": "Developed custom e-commerce solutions for various clients."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "Category content retrieved",
+  "data": [
+  {
+    "id": "web-001",
+    "title": "Lumina E-Commerce",
+    "category": "Web Development",
+    "image": "/img/png/image.png",
+    "desc": "A scalable headless e-commerce platform built with Next.js and Shopify API. Features include real-time inventory, multi-currency support, and AI-powered recommendations.",
+    "tech": ["Next.js", "Tailwind", "Shopify API", "Redis"],
+    "links": {
+      "demo": "https://lumina-demo.com",
+      "repo": "https://github.com/aminuddin/lumina"
+    }
+  },
+  {
+    "id": "web-002",
+    "title": "Nexus Dashboard",
+    "category": "Web Application",
+    "image": "/img/png/image.png",
+    "desc": "An analytical dashboard for SaaS businesses to track MRR, Churn, and User Engagement. Visualization powered by D3.js and Recharts.",
+    "tech": ["React", "TypeScript", "D3.js", "Firebase"],
+    "links": {
+      "demo": "https://nexus-dash.com",
+      "repo": "https://github.com/aminuddin/nexus"
+    }
+  },
+  {
+    "id": "web-003",
+    "title": "Estate Pro",
+    "category": "Web Development",
+    "image": "/img/png/image.png",
+    "desc": "Real estate listing platform with map integration, virtual tours, and agent management portal.",
+    "tech": ["Vue.js", "Nuxt", "Leaflet Maps", "Supabase"],
+    "links": {
+      "demo": "https://estate-pro.com",
+      "repo": "https://github.com/aminuddin/estate-pro"
+    }
+  }
+],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 2
+  }
+}

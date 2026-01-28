@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "Configuration fetched successfully",
+  "data": {
+    "meta": {
+      "title": "Aminuddin Dev | Full Stack Engineer",
+      "description": "Professional portfolio of Aminuddin, a Full Stack Engineer specializing in modern web technologies.",
+      "author": "Aminuddin",
+      "keywords": "react, developer, portfolio"
+    },
+    "assets": {
+      "logo": "/img/svg/HeroAnim.svg",
+      "favicon": "/favicon.ico"
+    },
+    "navigation": {
+      "brand": "Aminuddin.",
+      "searchPlaceholder": "Search projects...",
+      "links": [
+        { "id": "nav-home", "text": "Home", "href": "/" },
+        { "id": "nav-about", "text": "About", "href": "/about" },
+        { "id": "nav-portfolio", "text": "Portfolio", "href": "/portfolio" },
+        { "id": "nav-contact", "text": "Contact", "href": "/contact" }
+      ]
+    },
+    "theme": {
+      "fonts": {
+        "heading": { "name": "Outfit", "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" },
+        "sans": { "name": "Plus Jakarta Sans", "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" }
+      },
+      "colors": {
+        "light": { "background": "#ffffff", "foreground": "#0f172a", "primary": "#2563eb", "primary-foreground": "#ffffff" },
+        "dark": { "background": "#020617", "foreground": "#f8fafc", "primary": "#3b82f6", "primary-foreground": "#ffffff" }
+      }
+    },
+    "footer": {
+      "desc": "Crafting exceptional digital experiences with clean code.",
+      "col1": "Company",
+      "col2": "Services",
+      "col3": "Connect",
+      "copyright": "All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "socials": {
+      "github": "https://github.com/aminuddin12",
+      "twitter": "https://twitter.com/aminuddin",
+      "linkedin": "https://linkedin.com/in/aminuddin"
+    }
+  }
+}

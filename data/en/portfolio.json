@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "Portfolio page data retrieved",
+  "data": {
+    "seo": {
+      "title": "Portfolio - Aminuddin Dev",
+      "description": "Browse my collection of web and mobile projects. See how I solve problems with code.",
+      "keywords": "portfolio, web projects, react projects, case studies",
+      "type": "website"
+    },
+    "title": "Selected Works",
+    "subtitle": "A showcase of projects that demonstrate my technical capabilities and design sensibility.",
+    "btnDetail": "Explore Project",
+    "categories": ["web", "mobile", "frontend", "backend", "design"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "Contact page data retrieved",
+  "data": {
+    "seo": {
+      "title": "Contact - Aminuddin Dev",
+      "description": "Get in touch for freelance opportunities, collaborations, or just to say hi.",
+      "keywords": "contact developer, hire frontend engineer, freelance web developer",
+      "type": "website"
+    },
+    "title": "Get in Touch",
+    "subtitle": "Have a question or want to work together? Fill out the form below.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "message": "Project Details",
+      "btn": "Send Message",
+      "placeholderName": "e.g. John Doe",
+      "placeholderMsg": "Tell me a bit about your project..."
+    }
+  }
+}
