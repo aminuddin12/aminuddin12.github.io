@@ -1,17 +1,90 @@
 {
   "success": true,
   "code": 200,
-  "message": "Portfolio page data retrieved",
+  "message": "Portfolio services data retrieved successfully",
   "data": {
     "seo": {
-      "title": "Portfolio - Aminuddin Dev",
-      "description": "Browse my collection of web and mobile projects. See how I solve problems with code.",
-      "keywords": "portfolio, web projects, react projects, case studies",
+      "title": "Services - Aminuddin Dev",
+      "description": "Professional web development, mobile app creation, and UI/UX design services tailored to your business needs.",
+      "keywords": "web development services, hire react developer, ui/ux design, mobile app development",
       "type": "website"
     },
-    "title": "Selected Works",
-    "subtitle": "A showcase of projects that demonstrate my technical capabilities and design sensibility.",
-    "btnDetail": "Explore Project",
-    "categories": ["web", "mobile", "frontend", "backend", "design"]
+    "title": "What I Offer",
+    "subtitle": " comprehensive technical solutions designed to help your business grow and succeed in the digital era.",
+    "btnCta": "Start a Project",
+    "services": [
+      {
+        "id": "srv-1",
+        "title": "Web Development",
+        "desc": "Custom websites and web applications built with modern technologies like React, Next.js, and Tailwind CSS. Fast, SEO-friendly, and scalable.",
+        "icon": "solar:laptop-minimalistic-bold-duotone",
+        "features": [
+          "Single Page Applications (SPA)",
+          "E-Commerce Platforms",
+          "Company Profile Websites",
+          "CMS Integration"
+        ]
+      },
+      {
+        "id": "srv-2",
+        "title": "Mobile App Development",
+        "desc": "Native and cross-platform mobile applications for iOS and Android using React Native or Flutter. Smooth performance and great user experience.",
+        "icon": "solar:smartphone-2-bold-duotone",
+        "features": [
+          "iOS & Android Apps",
+          "Cross-Platform Development",
+          "App Store Deployment",
+          "API Integration"
+        ]
+      },
+      {
+        "id": "srv-3",
+        "title": "UI/UX Design",
+        "desc": "User-centered design that looks great and works perfectly. I create wireframes, prototypes, and high-fidelity designs using Figma.",
+        "icon": "solar:palette-bold-duotone",
+        "features": [
+          "User Interface Design",
+          "User Experience Research",
+          "Interactive Prototyping",
+          "Design Systems"
+        ]
+      },
+      {
+        "id": "srv-4",
+        "title": "Backend & API",
+        "desc": "Robust server-side solutions and API development to power your applications. Secure, efficient, and reliable data management.",
+        "icon": "solar:server-square-bold-duotone",
+        "features": [
+          "RESTful API Development",
+          "Database Design (SQL/NoSQL)",
+          "Authentication & Security",
+          "Cloud Deployment (AWS/Vercel)"
+        ]
+      },
+      {
+        "id": "srv-5",
+        "title": "DevOps & Cloud",
+        "desc": "Streamline your development process and ensure your applications are always online with modern CI/CD pipelines and cloud infrastructure.",
+        "icon": "solar:cloud-bold-duotone",
+        "features": [
+          "CI/CD Pipeline Setup",
+          "Docker Containerization",
+          "Server Management",
+          "Performance Optimization"
+        ]
+      },
+      {
+        "id": "srv-6",
+        "title": "Consultation",
+        "desc": "Technical advice and strategy for startups and businesses looking to digitize their operations or improve existing systems.",
+        "icon": "solar:chat-round-dots-bold-duotone",
+        "features": [
+          "Tech Stack Selection",
+          "Code Review & Audit",
+          "System Architecture",
+          "Digital Transformation"
+        ]
+      }
+    ]
   }
 }

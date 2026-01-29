@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "Mobile category content retrieved",
+  "data": [
+    {
+      "id": "mob-001",
+      "title": "FitTrack Pro",
+      "category": "Mobile App",
+      "image": "/img/png/image.png",
+      "desc": "A comprehensive fitness tracking application with real-time GPS and health metrics integration.",
+      "tech": ["Flutter", "Dart", "Firebase"],
+      "links": { "demo": "#", "repo": "#" }
+    },
+    {
+      "id": "mob-002",
+      "title": "Wallet Wise",
+      "category": "Mobile App",
+      "image": "/img/png/image.png",
+      "desc": "Personal finance manager with expense tracking, budgeting, and visual reports.",
+      "tech": ["React Native", "TypeScript", "Redux"],
+      "links": { "demo": "#", "repo": "#" }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 2
+  }
+}
