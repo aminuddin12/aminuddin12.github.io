@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "Backend category content retrieved",
+  "data": [
+    {
+      "id": "be-001",
+      "title": "Auth Service API",
+      "category": "Backend",
+      "image": "/img/png/image.png",
+      "desc": "Secure authentication microservice implementing OAuth2 and JWT protocols.",
+      "tech": ["Go", "PostgreSQL", "Redis"],
+      "links": { "demo": "#", "repo": "#" }
+    },
+    {
+      "id": "be-002",
+      "title": "E-Com Core",
+      "category": "Backend",
+      "image": "/img/png/image.png",
+      "desc": "Scalable e-commerce backend handling inventory, orders, and payment processing.",
+      "tech": ["Node.js", "Express", "MongoDB"],
+      "links": { "demo": "#", "repo": "#" }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 2
+  }
+}

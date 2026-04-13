@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "Frontend category content retrieved",
+  "data": [
+    {
+      "id": "fe-001",
+      "title": "SaaS Landing Page",
+      "category": "Frontend",
+      "image": "/img/png/image.png",
+      "desc": "High-conversion landing page with complex animations and interactive elements.",
+      "tech": ["Vue.js", "Tailwind", "GSAP"],
+      "links": { "demo": "#", "repo": "#" }
+    },
+    {
+      "id": "fe-002",
+      "title": "Admin Dashboard",
+      "category": "Frontend",
+      "image": "/img/png/image.png",
+      "desc": "Comprehensive admin panel with data visualization charts and user management.",
+      "tech": ["React", "Next.js", "Chakra UI"],
+      "links": { "demo": "#", "repo": "#" }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 2
+  }
+}

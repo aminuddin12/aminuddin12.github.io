@@ -1,0 +1,87 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "Configuration fetched successfully",
+  "data": {
+    "meta": {
+      "siteName": "Aminuddin Dev",
+      "title": "Aminuddin Dev | Full Stack Engineer & UI/UX Designer",
+      "description": "Portfolio of Aminuddin, a Full Stack Engineer building scalable web applications and intuitive user interfaces with React, Next.js, and modern tech.",
+      "author": "Aminuddin",
+      "keywords": "web development, react, software engineer, portfolio, full stack, ui/ux, indonesia",
+      "siteUrl": "https://aminuddin.dev",
+      "ogImage": "/img/og-default.png",
+      "twitterHandle": "@aminuddin_dev",
+      "type": "website",
+      "locale": "en_US"
+    },
+    "assets": {
+      "logo": "/img/svg/HeroAnim.svg",
+      "favicon": "/favicon.ico",
+      "heroImage": "/img/png/image.png"
+    },
+    "contact": {
+      "email": "hello@aminuddin.dev",
+      "phone": "+62 812 3456 7890",
+      "address": "Surabaya, East Java, Indonesia"
+    },
+    "navigation": {
+      "brand": "Aminuddin.",
+      "searchPlaceholder": "Search projects...",
+      "links": [
+        { "id": "nav-home", "text": "Home", "href": "/" },
+        { "id": "nav-about", "text": "About", "href": "/about" },
+        { "id": "nav-project", "text": "Projects", "href": "/project" },
+        { "id": "nav-portfolio", "text": "Services", "href": "/portfolio" },
+        { "id": "nav-contact", "text": "Contact", "href": "/contact" }
+      ]
+    },
+    "theme": {
+      "fonts": {
+        "heading": {
+          "name": "Outfit",
+          "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap"
+        },
+        "sans": {
+          "name": "Plus Jakarta Sans",
+          "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        }
+      },
+      "colors": {
+        "light": {
+          "background": "#ffffff",
+          "foreground": "#0f172a",
+          "primary": "#2563eb",
+          "primary-foreground": "#ffffff",
+          "muted": "#f1f5f9",
+          "muted-foreground": "#64748b",
+          "border": "#e2e8f0"
+        },
+        "dark": {
+          "background": "#020617",
+          "foreground": "#f8fafc",
+          "primary": "#3b82f6",
+          "primary-foreground": "#ffffff",
+          "muted": "#1e293b",
+          "muted-foreground": "#94a3b8",
+          "border": "#1e293b"
+        }
+      }
+    },
+    "footer": {
+      "desc": "Crafting exceptional digital experiences with clean code and modern design principles. Open for freelance and collaboration.",
+      "col1": "Explore",
+      "col2": "Services",
+      "col3": "Connect",
+      "copyright": "Aminuddin. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "socials": {
+      "github": "https://github.com/aminuddin12",
+      "twitter": "https://twitter.com/aminuddin",
+      "linkedin": "https://linkedin.com/in/aminuddin",
+      "instagram": "https://instagram.com/aminuddin"
+    }
+  }
+}

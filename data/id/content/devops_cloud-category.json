@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "DevOps category content retrieved",
+  "data": [
+    {
+      "id": "dev-001",
+      "title": "K8s Cluster Setup",
+      "category": "DevOps",
+      "image": "/img/png/image.png",
+      "desc": "Automated Kubernetes cluster deployment on AWS using Terraform.",
+      "tech": ["Kubernetes", "Terraform", "AWS"],
+      "links": { "demo": "#", "repo": "#" }
+    },
+    {
+      "id": "dev-002",
+      "title": "CI/CD Pipeline",
+      "category": "DevOps",
+      "image": "/img/png/image.png",
+      "desc": "Robust CI/CD pipeline for automated testing and deployment of microservices.",
+      "tech": ["Docker", "Jenkins", "GitHub Actions"],
+      "links": { "demo": "#", "repo": "#" }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 2
+  }
+}

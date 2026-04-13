@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "Package category content retrieved",
+  "data": [
+    {
+      "id": "pkg-001",
+      "title": "React Super Button",
+      "category": "NPM Package",
+      "image": "/img/png/image.png",
+      "desc": "A highly customizable and accessible button component for React applications.",
+      "tech": ["React", "TypeScript", "NPM"],
+      "links": { "demo": "#", "repo": "#" }
+    },
+    {
+      "id": "pkg-002",
+      "title": "Utils Helper",
+      "category": "Library",
+      "image": "/img/png/image.png",
+      "desc": "Collection of common utility functions for JavaScript projects.",
+      "tech": ["JavaScript", "Jest"],
+      "links": { "demo": "#", "repo": "#" }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 2
+  }
+}

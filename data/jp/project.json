@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "Project page data retrieved successfully",
+  "data": {
+    "seo": {
+      "title": "Projects - Aminuddin Dev",
+      "description": "Explore a comprehensive list of my web development, mobile app, and design projects. Filter by category to see specific works.",
+      "keywords": "web projects, mobile apps, ui design, case studies, software engineering portfolio",
+      "type": "website"
+    },
+    "title": "My Projects",
+    "subtitle": "A curated collection of my work, ranging from complex web applications to intuitive mobile solutions.",
+    "filters": [
+      "All",
+      "Web Development",
+      "Mobile App",
+      "Frontend",
+      "Backend",
+      "DevOps",
+      "UI/UX Design",
+      "Package"
+    ],
+    "categoryColors": {
+      "Web Development": "#3b82f6",
+      "Mobile App": "#8b5cf6",
+      "Frontend": "#10b981",
+      "Backend": "#f59e0b",
+      "DevOps": "#ef4444",
+      "UI/UX Design": "#ec4899",
+      "Package": "#6366f1"
+    },
+    "categories": [
+      "web",
+      "mobile",
+      "frontend",
+      "backend",
+      "devops_cloud",
+      "design",
+      "package"
+    ],
+    "btnDetail": "View Details"
+  }
+}

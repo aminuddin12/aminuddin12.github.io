@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "Design category content retrieved",
+  "data": [
+    {
+      "id": "des-001",
+      "title": "Fintech UI Kit",
+      "category": "UI/UX Design",
+      "image": "/img/png/image.png",
+      "desc": "Comprehensive UI kit for financial applications including 50+ screens.",
+      "tech": ["Figma", "Sketch", "Adobe XD"],
+      "links": { "demo": "#", "repo": "#" }
+    },
+    {
+      "id": "des-002",
+      "title": "Brand Identity",
+      "category": "Branding",
+      "image": "/img/png/image.png",
+      "desc": "Complete brand identity package including logo, typography, and guidelines.",
+      "tech": ["Illustrator", "Photoshop"],
+      "links": { "demo": "#", "repo": "#" }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 2
+  }
+}
